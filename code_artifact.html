@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>رزومه تخصصی اقتصادسنجی</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100;300;400;700&display=swap');
+        
+        body {
+            font-family: 'Vazirmatn', sans-serif;
+            background-color: #fdfcfb;
+            color: #1a1a1a;
+            scroll-behavior: smooth;
+        }
+
+        .chart-container {
+            position: relative;
+            width: 100%;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            height: 300px;
+            max-height: 350px;
+        }
+
+        .book-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .book-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid #e5e7eb;
+        }
+
+        .section-intro {
+            border-right: 4px solid #334155;
+            padding-right: 1rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body class="bg-[#fdfcfb]">
+
+    <!-- Navigation -->
+    <nav class="glass-nav sticky top-0 z-50 px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <h1 class="font-bold text-xl tracking-tight text-slate-800">رزومه علمی و تخصصی</h1>
+            <div class="hidden md:flex gap-6 text-sm font-medium">
+                <a href="#vision" class="hover:text-slate-500 transition">چشم‌انداز</a>
+                <a href="#education" class="hover:text-slate-500 transition">تحصیلات</a>
+                <a href="#skills" class="hover:text-slate-500 transition">مهارت‌ها</a>
+                <a href="#books" class="hover:text-slate-500 transition">قفسه کتاب</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto px-6 py-12">
+        
+        <!-- Header Section -->
+        <header class="mb-16 text-center">
+            <h2 class="text-4xl font-bold mb-4">نام و نام خانوادگی شما</h2>
+            <p class="text-xl text-slate-600 font-light italic">اقتصاددان کمی | تحلیل‌گر داده‌های مالی</p>
+            <div class="mt-6 flex justify-center gap-4 text-sm">
+                <span class="px-3 py-1 bg-slate-100 rounded-full">تهران، ایران</span>
+                <span class="px-3 py-1 bg-slate-100 rounded-full">example@email.com</span>
+            </div>
+        </header>
+
+        <!-- Vision Section -->
+        <section id="vision" class="mb-20">
+            <div class="section-intro">
+                <h3 class="text-2xl font-bold">چشم‌انداز علمی</h3>
+                <p class="text-slate-600 mt-2">این بخش بر روی اهداف بلندمدت من در ترکیب تئوری‌های اقتصادی با محاسبات پیشرفته متمرکز است.</p>
+            </div>
+            <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 leading-loose text-justify">
+                تمرکز اصلی من بر به‌کارگیری ابزارهای پیشرفته اقتصادسنجی و مدل‌سازی کمی برای تحلیل سیاست‌گذاری‌های کلان اقتصادی و بازارهای مالی است. هدف من ترکیب تئوری‌های اقتصادی با متدهای نوین علم داده و یادگیری ماشین جهت ارائه‌ راه‌حل‌های داده‌محور برای چالش‌های پیچیده اقتصادی است.
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="mb-20">
+            <div class="section-intro">
+                <h3 class="text-2xl font-bold">سوابق تحصیلی و عملکرد</h3>
+                <p class="text-slate-600 mt-2">تحلیل آماری نمرات در دروس کلیدی دوره کارشناسی ارشد.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <div class="mb-6">
+                        <h4 class="font-bold text-lg text-slate-800">کارشناسی ارشد علوم اقتصادی</h4>
+                        <p class="text-slate-500">دانشگاه تهران | ۱۴۰۱ - کنون</p>
+                        <p class="mt-2 text-sm">معدل کل: <span class="font-bold">۱۸.۵۰</span></p>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
+                            <span>اقتصادسنجی پیشرفته</span>
+                            <span class="font-bold text-green-600">۲۰.۰</span>
+                        </div>
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
+                            <span>تحلیل سری‌های زمانی</span>
+                            <span class="font-bold text-green-600">۲۰.۰</span>
+                        </div>
+                        <div class="flex justify-between items-center p-3 bg-slate-50 rounded-lg">
+                            <span>اقتصاد کلان پیشرفته</span>
+                            <span class="font-bold text-green-600">۱۹.۵</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="chart-container">
+                    <canvas id="gradesChart"></canvas>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="mb-20">
+            <div class="section-intro">
+                <h3 class="text-2xl font-bold">مهارت‌های فنی و ابزارها</h3>
+                <p class="text-slate-600 mt-2">توازن تسلط بر زبان‌های برنامه‌نویسی و نرم‌افزارهای تخصصی.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-6 bg-white rounded-xl border border-slate-100 shadow-sm text-center">
+                    <h4 class="font-bold mb-4">Python</h4>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-slate-700 h-2 rounded-full" style="width: 90%"></div>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 text-left">Pandas, Scikit-learn</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl border border-slate-100 shadow-sm text-center">
+                    <h4 class="font-bold mb-4">R / Stata</h4>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-slate-700 h-2 rounded-full" style="width: 85%"></div>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 text-left">Causal Inference, DID</p>
+                </div>
+                <div class="p-6 bg-white rounded-xl border border-slate-100 shadow-sm text-center">
+                    <h4 class="font-bold mb-4">MATLAB</h4>
+                    <div class="w-full bg-gray-200 rounded-full h-2">
+                        <div class="bg-slate-700 h-2 rounded-full" style="width: 70%"></div>
+                    </div>
+                    <p class="text-xs text-slate-400 mt-2 text-left">DSGE Modeling</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bookshelf Section -->
+        <section id="books" class="mb-20">
+            <div class="section-intro">
+                <h3 class="text-2xl font-bold">قفسه کتاب (Bookshelf)</h3>
+                <p class="text-slate-600 mt-2">کتاب‌های مرجع که در حال مطالعه آن‌ها هستم یا به اتمام رسانده‌ام.</p>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+                <!-- Book 1 -->
+                <div class="book-card group">
+                    <div class="aspect-[2/3] bg-slate-200 rounded-lg mb-3 overflow-hidden shadow-md">
+                        <img src="https://covers.openlibrary.org/b/isbn/9780691120355-M.jpg" alt="Book Cover" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-xs font-bold line-clamp-2">Mostly Harmless Econometrics</h4>
+                    <span class="text-[10px] px-2 py-0.5 bg-green-100 text-green-700 rounded-full">مطالعه شده</span>
+                </div>
+                <!-- Book 2 -->
+                <div class="book-card group">
+                    <div class="aspect-[2/3] bg-slate-200 rounded-lg mb-3 overflow-hidden shadow-md">
+                        <img src="https://covers.openlibrary.org/b/isbn/9781111531041-M.jpg" alt="Book Cover" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-xs font-bold line-clamp-2">Introductory Econometrics</h4>
+                    <span class="text-[10px] px-2 py-0.5 bg-green-100 text-green-700 rounded-full">مطالعه شده</span>
+                </div>
+                <!-- Book 3 -->
+                <div class="book-card group">
+                    <div class="aspect-[2/3] bg-slate-200 rounded-lg mb-3 overflow-hidden shadow-md">
+                        <img src="https://covers.openlibrary.org/b/isbn/9780521848053-M.jpg" alt="Book Cover" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-xs font-bold line-clamp-2">Microeconometrics</h4>
+                    <span class="text-[10px] px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full">در حال مطالعه</span>
+                </div>
+                <!-- Book 4 -->
+                <div class="book-card group">
+                    <div class="aspect-[2/3] bg-slate-200 rounded-lg mb-3 overflow-hidden shadow-md">
+                        <img src="https://covers.openlibrary.org/b/isbn/9781513264455-M.jpg" alt="Book Cover" class="w-full h-full object-cover">
+                    </div>
+                    <h4 class="text-xs font-bold line-clamp-2">Causal Inference: The Mixtape</h4>
+                    <span class="text-[10px] px-2 py-0.5 bg-blue-100 text-blue-700 rounded-full">در حال مطالعه</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reports Section -->
+        <section id="reports" class="mb-20">
+            <div class="section-intro">
+                <h3 class="text-2xl font-bold">نوتبوک‌های محاسباتی</h3>
+                <p class="text-slate-600 mt-2">خروجی پروژه‌های داده‌کاوی و شبیه‌سازی‌های اقتصادی.</p>
+            </div>
+            <div class="space-y-4">
+                <a href="#" class="block p-6 bg-white border border-slate-100 rounded-2xl hover:bg-slate-50 transition shadow-sm group">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <h4 class="font-bold text-slate-800">پیش‌بینی تورم با مدل‌های SARIMAX</h4>
+                            <p class="text-sm text-slate-500 mt-1">استفاده از کتابخانه‌های Statsmodels برای تحلیل سری زمانی</p>
+                        </div>
+                        <span class="text-slate-400 group-hover:text-slate-800">←</span>
+                    </div>
+                </a>
+                <a href="#" class="block p-6 bg-white border border-slate-100 rounded-2xl hover:bg-slate-50 transition shadow-sm group">
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <h4 class="font-bold text-slate-800">ارزیابی اثرات علی اصلاح یارانه‌ها</h4>
+                            <p class="text-sm text-slate-500 mt-1">پیاده‌سازی رویکرد Difference-in-Differences در R</p>
+                        </div>
+                        <span class="text-slate-400 group-hover:text-slate-800">←</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-900 text-white py-12 px-6">
+        <div class="max-w-5xl mx-auto text-center">
+            <p class="text-sm text-slate-400">طراحی شده برای پورتفولیوی گیت‌هاب | ۲۰۲۴</p>
+            <div class="mt-4 flex justify-center gap-6">
+                <span class="cursor-pointer hover:text-white transition text-slate-500">LinkedIn</span>
+                <span class="cursor-pointer hover:text-white transition text-slate-500">GitHub</span>
+                <span class="cursor-pointer hover:text-white transition text-slate-500">Google Scholar</span>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Charts Initialization
+        const ctxGrades = document.getElementById('gradesChart').getContext('2d');
+        new Chart(ctxGrades, {
+            type: 'bar',
+            data: {
+                labels: ['اقتصادسنجی ۱', 'سری زمانی', 'اقتصاد کلان', 'اقتصاد ریاضی'],
+                datasets: [{
+                    label: 'نمره از ۲۰',
+                    data: [20, 20, 19.5, 18.75],
+                    backgroundColor: 'rgba(51, 65, 85, 0.8)',
+                    borderColor: 'rgb(51, 65, 85)',
+                    borderWidth: 1,
+                    borderRadius: 5
+                }]
+            },
+            options: {
+                maintainAspectRatio: false,
+                responsive: true,
+                indexAxis: 'y',
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        max: 20,
+                        grid: { display: false }
+                    },
+                    y: {
+                        grid: { display: false }
+                    }
+                },
+                plugins: {
+                    legend: { display: false }
+                }
+            }
+        });
+
+        // Navigation Highlight
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (pageYOffset >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-slate-900', 'font-bold');
+                if (link.getAttribute('href').includes(current)) {
+                    link.classList.add('text-slate-900', 'font-bold');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
