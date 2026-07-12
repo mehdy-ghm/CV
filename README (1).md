@@ -105,7 +105,7 @@
 #### Languages
 
 ![](https://img.shields.io/badge/Persian-native-brightgreen)
-![](https://img.shields.io/badge/English-medium-yellow)
+![](https://img.shields.io/badge/English-strong-green)
 
 #### Soft Skills
 
