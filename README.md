@@ -159,11 +159,11 @@
 
 |                                                       | Title                       | Status      |
 | ----------------------------------------------------- | --------------------------- | ----------- |
-| ![cover](https://via.placeholder.com/50x70?text=Book) | تفکر سریع و کند | In Progress |
-| ![cover](https://via.placeholder.com/50x70?text=Book) | عادت‌های اتمی   | Finished    |
-| ![cover](https://via.placeholder.com/50x70?text=Book) |freakonomics         | Not Started |
-||the power of habits|finished|
-||آیین زندگی|finished|
+| ![cover](https://github.com/mehdy-ghm/CV/blob/main/Assets/71S7KwSxIYL._AC_UF350%2C350_QL50_.jpg) | معجزه‌ی آسیای شرقی | In Progress |
+| ![cover](https://github.com/mehdy-ghm/CV/blob/main/Assets/images.jpg) | عادت‌های اتمی   | Finished    |
+| ![cover](https://github.com/mehdy-ghm/CV/blob/main/Assets/images%20(3).jpg) |freakonomics         | Not Started |
+|![cover](https://github.com/mehdy-ghm/CV/blob/main/Assets/images%20(1).jpg)|the power of habits|finished|
+|![cover](https://github.com/mehdy-ghm/CV/blob/main/Assets/images%20(2).jpg)|آیین زندگی|finished|
 ---
 
 ### پروژه ها و مقالات
