@@ -1,4 +1,4 @@
-<h1 align="center">مهدی غرابی موسوی</h1>
+<h1 align="center">مهدی غرابی موسوی</h1> 
 <p align="center"><i>Quantitative Analyst in progress — Econometrics × Machine Learning × Energy Economics</i></p>
 
 <p align="center">
@@ -196,5 +196,5 @@
 <h3 id="contact">Contact</h3>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINK)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](m.ghorabimousavi@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](https://mail.google.com/mail/u/0/?tab=rm&ogbl)
 [![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/@Mahdiya3)
