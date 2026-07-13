@@ -155,13 +155,15 @@
 ---
 
 <h3 id="books">Reading</h3>
+کتاب هایی که دوست داشتم و دوست دارم بخوانم
 
 |                                                       | Title                       | Status      |
 | ----------------------------------------------------- | --------------------------- | ----------- |
 | ![cover](https://via.placeholder.com/50x70?text=Book) | تفکر سریع و کند | In Progress |
 | ![cover](https://via.placeholder.com/50x70?text=Book) | عادت‌های اتمی   | Finished    |
-| ![cover](https://via.placeholder.com/50x70?text=Book) | [نام کتاب]           | Not Started |
-
+| ![cover](https://via.placeholder.com/50x70?text=Book) |freakonomics         | Not Started |
+||the power of habits|finished|
+||آیین زندگی|finished|
 ---
 
 ### پروژه ها و مقالات
@@ -194,5 +196,5 @@
 <h3 id="contact">Contact</h3>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINK)
-![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/YOUR_USERNAME)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=flat&logo=gmail&logoColor=white)](m.ghorabimousavi@gmail.com)
+[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)](https://t.me/@Mahdiya3)
